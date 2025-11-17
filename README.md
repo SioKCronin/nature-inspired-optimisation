@@ -138,6 +138,65 @@ best_position, best_value = optimizer.run(iterations=200)
 - **Soil types** affect movement resistance, pickup difficulty, deposition rate, and erosion rate
 - Different combinations create diverse optimization behaviors
 
+### Using the Water Cycle Algorithm
+
+The Water Cycle Algorithm (WCA) simulates the natural water cycle process, where streams flow toward rivers, rivers flow toward the sea, and evaporation/raining processes provide exploration.
+
+**Basic usage:**
+
+```python
+from nio import WaterCycleAlgorithm
+
+optimizer = WaterCycleAlgorithm(
+    bounds=[(-5.12, 5.12)] * 5,
+    population_size=40,
+    num_rivers=4,
+    seed=42
+)
+best_position, best_value = optimizer.run(iterations=200)
+```
+
+**Algorithm features:**
+- **Sea**: Best solution (global best)
+- **Rivers**: Better solutions that streams flow toward
+- **Streams**: Population members that flow toward rivers or sea
+- **Flow process**: Streams and rivers move toward better solutions
+- **Evaporation**: When streams/rivers get close to sea, they evaporate
+- **Raining**: Evaporated water creates new random solutions for exploration
+
+**Parameters:**
+- `num_rivers`: Number of rivers (better solutions), typically 3-5
+- `evaporation_rate`: Base probability of evaporation (controls exploration)
+- `max_evaporation_distance`: Maximum distance for evaporation to occur
+- `flow_rate`: Base rate at which water bodies move toward targets
+
+**Using specific liquid types:**
+
+The algorithm supports 8 liquid types (FRESH_WATER, SALTWATER, DISTILLED_WATER, HOT_WATER, COLD_WATER, HEAVY_WATER, STEAM, ICE), each with different properties affecting flow speed, evaporation rate, and boiling point:
+
+```python
+from nio import WaterCycleAlgorithm, WCA_LiquidType
+
+# Use specific liquid types
+optimizer = WaterCycleAlgorithm(
+    bounds=[(-5.12, 5.12)] * 5,
+    population_size=40,
+    num_rivers=4,
+    liquid_types=[WCA_LiquidType.HOT_WATER, WCA_LiquidType.STEAM, WCA_LiquidType.FRESH_WATER],
+    liquid_distribution="uniform",  # or "random"
+    seed=42
+)
+best_position, best_value = optimizer.run(iterations=200)
+```
+
+**Liquid properties:**
+- **Flow speed**: Affects how fast water bodies move toward targets (STEAM is fastest, ICE is slowest)
+- **Evaporation rate**: Affects probability of evaporation (HOT_WATER/STEAM evaporate faster, COLD_WATER/ICE slower)
+- **Boiling point**: Affects distance threshold for evaporation (lower = evaporates at greater distances)
+- **Density**: Affects flow behavior
+
+Different liquid types create diverse optimization behaviors - fast-flowing liquids like STEAM explore quickly, while slower liquids like HEAVY_WATER provide more controlled convergence.
+
 ### Command-line demo
 
 ```bash
