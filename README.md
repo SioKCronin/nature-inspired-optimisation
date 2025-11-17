@@ -100,6 +100,44 @@ best_position, best_value = optimizer.run(iterations=200)
 print(best_value)
 ```
 
+### Using the IWD-CO Algorithm
+
+The Intelligent Water Drops - Continuous Optimization (IWD-CO) algorithm simulates water drops flowing through a landscape, where drops move toward areas with less soil (better solutions). The implementation includes multiple liquid and soil types, each with distinct physical properties that affect optimization behavior.
+
+**Basic usage:**
+
+```python
+from nio import IWDCO
+
+optimizer = IWDCO(bounds=[(-5.12, 5.12)] * 5, population_size=40, seed=42)
+best_position, best_value = optimizer.run(iterations=200)
+print(best_value)
+```
+
+**Using specific material types:**
+
+The algorithm supports 6 liquid types (H2O, OIL, ALCOHOL, GLYCEROL, MERCURY, HONEY) and 6 soil types (SAND, CLAY, SILT, GRAVEL, LOAM, PEAT), each with different properties affecting velocity, soil pickup, and deposition:
+
+```python
+from nio import IWDCO, LiquidType, SoilType
+
+# Use specific liquid and soil types
+optimizer = IWDCO(
+    bounds=[(-5.12, 5.12)] * 5,
+    population_size=40,
+    liquid_types=[LiquidType.OIL, LiquidType.ALCOHOL, LiquidType.HONEY],
+    soil_types=[SoilType.SAND, SoilType.CLAY, SoilType.LOAM],
+    liquid_distribution="uniform",  # or "random"
+    seed=42
+)
+best_position, best_value = optimizer.run(iterations=200)
+```
+
+**Material properties:**
+- **Liquid types** affect velocity (viscosity, velocity multiplier) and soil carrying capacity
+- **Soil types** affect movement resistance, pickup difficulty, deposition rate, and erosion rate
+- Different combinations create diverse optimization behaviors
+
 ### Command-line demo
 
 ```bash
