@@ -62,15 +62,6 @@ Links to original papers introducing (or meta-analysis overviews of) the followi
 * Bull optimization algorithm
 * Elephent herding optimization (EHO)
 
-## Overview
-
-Nature-Inspired Optimisation (`nio`) pairs **topological data analysis (TDA)** with swarm-based metaheuristics. A typical workflow looks like:
-
-1. **Reduce large-scale multidimensional spaces using TDA** – run your Mapper / persistent homology / UMAP-PCA pipeline to capture the dominant manifold or cluster structure, then export those reduced coordinates as the search domain.
-2. **Define the optimization problem** – specify objectives, constraints, and bounds on the reduced representation (you can always lift solutions back to the original space afterward).
-3. **Run swarm optimization to find the global optimum** – choose any algorithm provided here (Bat, IWD-CO, Water Cycle, etc.) and iterate until convergence.
-4. **Validate and interpret the best solution** – map the optimum back to the full space (if needed) and apply domain-specific checks or gradient refinements before deployment.
-
 # Publications
 
 * [Algorithms](http://www.mdpi.com/journal/algorithms)
