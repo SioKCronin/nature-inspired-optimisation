@@ -90,6 +90,13 @@ pip install -e .
 
 Once installed you can import `nio` from anywhere on your system.
 
+### Typical Workflow
+
+1. **Reduce large-scale multidimensional spaces using TDA** – apply your topological data analysis workflow first to simplify or extract the key structure of the search space.
+2. **Define the optimization problem** – specify the objective function and bounds (often on the reduced representation).
+3. **Run swarm optimization to find the global optimum** – choose any algorithm in `nio` (Bat, IWD-CO, Water Cycle, etc.) and run it for the desired number of iterations.
+4. **Validate and interpret the best solution** – optionally verify the returned optimum with domain-specific checks or gradient-based refinements before deploying it.
+
 ### Using the Bat Algorithm
 
 ```python
