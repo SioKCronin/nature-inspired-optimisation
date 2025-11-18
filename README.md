@@ -92,10 +92,10 @@ Once installed you can import `nio` from anywhere on your system.
 
 ### Typical Workflow
 
-1. **Reduce large-scale multidimensional spaces using TDA** – apply your topological data analysis workflow first to simplify or extract the key structure of the search space.
-2. **Define the optimization problem** – specify the objective function and bounds (often on the reduced representation).
+1. **Reduce large-scale multidimensional spaces using TDA** – run your topological data analysis workflow (e.g., Mapper, persistent homology, UMAP/PCA hybrids) to extract a lower-dimensional manifold or cluster structure, then export those reduced coordinates as the search domain.
+2. **Define the optimization problem** – use the reduced representation to specify the objective function, constraints, and bounds (you can always lift the solution back to the original space afterward).
 3. **Run swarm optimization to find the global optimum** – choose any algorithm in `nio` (Bat, IWD-CO, Water Cycle, etc.) and run it for the desired number of iterations.
-4. **Validate and interpret the best solution** – optionally verify the returned optimum with domain-specific checks or gradient-based refinements before deploying it.
+4. **Validate and interpret the best solution** – map the optimum back to the full space (if needed) and perform domain checks or gradient-based refinements before deploying it.
 
 ### Using the Bat Algorithm
 
