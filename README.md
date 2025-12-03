@@ -41,6 +41,7 @@ Links to original papers introducing (or meta-analysis overviews of) the followi
 * Flower pollination algorithm (FPA)
 * Krill Herd
 * Water Cycle Algorithm 
+* [Proactive Particle Swarm Optimization (PPSO)](https://ieeexplore.ieee.org/document/7337957)
 * Black Holes Algorithm
 * Cuttlefish Algorithm
 * Gases Brownian Motion Optimization
@@ -196,6 +197,74 @@ best_position, best_value = optimizer.run(iterations=200)
 - **Density**: Affects flow behavior
 
 Different liquid types create diverse optimization behaviors - fast-flowing liquids like STEAM explore quickly, while slower liquids like HEAVY_WATER provide more controlled convergence.
+
+### Using Proactive Particle Swarm Optimization (PPSO)
+
+Proactive Particle Swarm Optimization (PPSO) combines traditional reactive particles with proactive particles that use knowledge gain metrics to explore regions with low sample density. This hybrid approach improves exploration while maintaining exploitation capabilities.
+
+**Reference:** Cheng, R., & Jin, Y. (2015). A social learning particle swarm optimization algorithm for scalable optimization. Information Sciences, 291, 43-60.
+
+**Basic usage:**
+
+```python
+from nio import PPSO
+
+optimizer = PPSO(
+    bounds=[(-5.12, 5.12)] * 5,
+    population_size=40,
+    proactive_ratio=0.25,  # 25% proactive particles
+    seed=42
+)
+best_position, best_value = optimizer.run(iterations=200)
+print(best_value)
+```
+
+**Algorithm features:**
+- **Proactive particles**: Use knowledge gain to explore unexplored regions
+- **Reactive particles**: Use standard PSO behavior for exploitation
+- **Knowledge gain calculation**: Measures how much information can be gained from exploring a region
+- **Adaptive exploration**: Exploration weight decreases over time, allowing convergence
+
+**Parameters:**
+- `proactive_ratio`: Ratio of proactive particles (0.2-0.3 recommended, default 0.25)
+- `knowledge_method`: Method for calculating knowledge gain ("gaussian" or "inverse_distance", default "gaussian")
+- `kernel_width`: Width parameter for knowledge gain calculation (default 1.0)
+- `exploration_weight`: Weight for exploration component (default 0.5)
+- `c1`, `c2`, `w`: Standard PSO parameters (cognitive, social, inertia)
+
+**Using different knowledge gain methods:**
+
+```python
+from nio import PPSO
+
+# Gaussian method (smooth, GP-inspired)
+optimizer_gaussian = PPSO(
+    bounds=[(-5.12, 5.12)] * 5,
+    population_size=40,
+    proactive_ratio=0.25,
+    knowledge_method="gaussian",
+    kernel_width=1.5,
+    seed=42
+)
+
+# Inverse distance method (simpler, faster)
+optimizer_inverse = PPSO(
+    bounds=[(-5.12, 5.12)] * 5,
+    population_size=40,
+    proactive_ratio=0.25,
+    knowledge_method="inverse_distance",
+    seed=42
+)
+```
+
+**How it works:**
+1. **Initialization**: Creates a mixed swarm of proactive and reactive particles
+2. **Proactive particles**: Calculate knowledge gain at their position, then explore toward regions with high knowledge gain (unexplored areas)
+3. **Reactive particles**: Follow standard PSO update rules (cognitive + social components)
+4. **Knowledge sharing**: All particles contribute to the sample history, which is used to calculate knowledge gain
+5. **Adaptive behavior**: Exploration weight decreases over time, allowing the algorithm to converge
+
+The proactive particles help escape local optima by exploring regions that haven't been sampled yet, while reactive particles exploit promising areas found so far.
 
 ### Command-line demo
 

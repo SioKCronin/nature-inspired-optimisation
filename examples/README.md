@@ -1,6 +1,30 @@
-# Cultural Algorithm Visualization Examples
+# NIO Examples
 
-This directory contains examples for visualizing the Cultural Algorithm optimization process.
+This directory contains examples demonstrating various features of the nio library.
+
+## Algorithm Comparison
+
+Compare PPSO, IWD-CO, and Water Cycle Algorithm performance and explore hybrid approaches:
+
+```bash
+python examples/algorithm_comparison.py
+```
+
+This example:
+- Runs all three algorithms on the same benchmark (Rastrigin function)
+- Compares convergence rates, final solutions, and runtime
+- Demonstrates a hybrid sequential approach combining all three algorithms
+- Generates convergence plots (if matplotlib is available)
+
+**Results typically show:**
+- **PPSO**: Good exploration with proactive particles, slower but thorough
+- **IWD-CO**: Fast convergence with water drop dynamics
+- **Water Cycle Algorithm**: Excellent balance of exploration and exploitation
+- **Hybrid Approach**: Sequential combination achieves best results by leveraging each algorithm's strengths
+
+## Cultural Algorithm Visualization
+
+Examples for visualizing the Cultural Algorithm optimization process.
 
 ## Quick Start
 
