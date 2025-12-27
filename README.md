@@ -28,7 +28,7 @@ Links to original papers introducing (or meta-analysis overviews of) the followi
 * Roach Infestation Optimization (RIO)
 * Bacterial Evolutionary Algorithm (BEA)
 * Cuckoo Search (CS)
-* Firefly Algorithm (FA) 
+* [Firefly Algorithm (FA)](https://arxiv.org/abs/1003.1466) 
 * Gravitational Search Algorithm (GSA)
 * [Bat Algorithm](https://www.sciencedirect.com/science/article/abs/pii/S1877750322002903)
 * [Phillippine Eagle Optimization Algorithm](https://ieeexplore.ieee.org/document/9732449)
