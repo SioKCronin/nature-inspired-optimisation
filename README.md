@@ -209,7 +209,7 @@ best_position, best_value = optimizer.run(iterations=200)
 
 **Using specific liquid types:**
 
-The algorithm supports 8 liquid types (FRESH_WATER, SALTWATER, DISTILLED_WATER, HOT_WATER, COLD_WATER, HEAVY_WATER, STEAM, ICE), each with different properties affecting flow speed, evaporation rate, and boiling point:
+The algorithm supports 7 liquid types (FRESH_WATER, SALTWATER, DISTILLED_WATER, HOT_WATER, COLD_WATER, HEAVY_WATER, STEAM), each with different properties affecting flow speed, evaporation rate, and boiling point:
 
 ```python
 from nio import WaterCycleAlgorithm, WCA_LiquidType
@@ -227,8 +227,8 @@ best_position, best_value = optimizer.run(iterations=200)
 ```
 
 **Liquid properties:**
-- **Flow speed**: Affects how fast water bodies move toward targets (STEAM is fastest, ICE is slowest)
-- **Evaporation rate**: Affects probability of evaporation (HOT_WATER/STEAM evaporate faster, COLD_WATER/ICE slower)
+- **Flow speed**: Affects how fast water bodies move toward targets (STEAM is fastest, HEAVY_WATER is slowest)
+- **Evaporation rate**: Affects probability of evaporation (HOT_WATER/STEAM evaporate faster, COLD_WATER slower)
 - **Boiling point**: Affects distance threshold for evaporation (lower = evaporates at greater distances)
 - **Density**: Affects flow behavior
 
