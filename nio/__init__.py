@@ -2,6 +2,7 @@
 
 Currently includes:
 - BatAlgorithm (Yang, 2010)
+- FireflyAlgorithm (Yang, 2009)
 - PhilippineEagleOptimization
 - CulturalAlgorithm (Reynolds, 1994)
 - IWDCO (Intelligent Water Drops - Continuous Optimization)
@@ -11,11 +12,14 @@ Currently includes:
 
 Usage example::
 
-    from nio import BatAlgorithm, PhilippineEagleOptimization, CulturalAlgorithm, IWDCO
+    from nio import BatAlgorithm, FireflyAlgorithm, PhilippineEagleOptimization, CulturalAlgorithm, IWDCO
     from nio import WaterCycleAlgorithm, PPSO, ContractingOptimum
 
     optimizer = BatAlgorithm()
     solution, value = optimizer.run(200)
+
+    fa = FireflyAlgorithm(alpha=0.2, beta0=1.0, gamma=1.0)
+    solution, value = fa.run(200)
 
     peo = PhilippineEagleOptimization()
     solution, value = peo.run(200)
@@ -40,6 +44,7 @@ Usage example::
 """
 
 from .bat import BatAlgorithm, Bat, rastrigin
+from .firefly import FireflyAlgorithm, Firefly
 from .philippine_eagle import PhilippineEagleOptimization, Eagle, Operator, Phase
 from .cultural import CulturalAlgorithm, Individual, BeliefSpace, NormativeKnowledge, SituationalKnowledge
 from .iwd_co import IWDCO, WaterDrop, LiquidType, SoilType
@@ -51,6 +56,8 @@ __all__ = [
     "BatAlgorithm",
     "Bat",
     "rastrigin",
+    "FireflyAlgorithm",
+    "Firefly",
     "PhilippineEagleOptimization",
     "Eagle",
     "Operator",

@@ -101,6 +101,42 @@ best_position, best_value = optimizer.run(iterations=200)
 print(best_value)
 ```
 
+### Using the Firefly Algorithm
+
+The Firefly Algorithm is inspired by the flashing behavior of fireflies. Each firefly represents a solution, and brighter fireflies (better solutions) attract other fireflies based on light intensity (objective function value).
+
+**Reference:** Xin-She Yang, "Firefly algorithms for multimodal optimization", in: Stochastic Algorithms: Foundations and Applications, SAGA 2009, Lecture Notes in Computer Sciences, Vol. 5792, pp. 169-178 (2009). [arXiv:1003.1466](https://arxiv.org/pdf/1003.1466)
+
+**Basic usage:**
+
+```python
+from nio import FireflyAlgorithm
+
+optimizer = FireflyAlgorithm(
+    bounds=[(-5.12, 5.12)] * 5,
+    population_size=40,
+    alpha=0.2,    # Randomization parameter
+    beta0=1.0,    # Attractiveness at r=0
+    gamma=1.0,    # Light absorption coefficient
+    seed=42
+)
+best_position, best_value = optimizer.run(iterations=200)
+print(best_value)
+```
+
+**Algorithm features:**
+- **Attractiveness**: Fireflies are attracted to brighter (better) fireflies based on distance
+- **Light intensity**: Associated with the objective function value (brighter = better)
+- **Movement**: Each firefly moves toward all brighter fireflies, with attractiveness decaying with distance
+- **Randomization**: Random movement component prevents premature convergence
+
+**Parameters:**
+- `alpha`: Randomization parameter controlling exploration (default: 0.2)
+- `beta0`: Maximum attractiveness at distance r=0 (default: 1.0)
+- `gamma`: Light absorption coefficient controlling attractiveness decay (default: 1.0)
+
+The attractiveness between two fireflies follows: β(r) = β₀ * exp(-γ * r²), where r is the distance between fireflies.
+
 ### Using the IWD-CO Algorithm
 
 The Intelligent Water Drops - Continuous Optimization (IWD-CO) algorithm simulates water drops flowing through a landscape, where drops move toward areas with less soil (better solutions). The implementation includes multiple liquid and soil types, each with distinct physical properties that affect optimization behavior.
