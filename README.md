@@ -1,5 +1,10 @@
 # Nature-Inspired Optimisation
 
+My goal with this project is to celebrate optimization strategies from planet earth. I see our collective 
+strategies as a planetary heritage we can all observe, document, and celebrate together. My hope is we can
+use these algorithms as a meeting ground for refining understanding of what we have observed and learned 
+in studying nature. 
+
 Links to original papers introducing (or meta-analysis overviews of) the following algorithms/heuristics/methods:
 
 * Genetic Algorithms (GA)
@@ -324,59 +329,3 @@ print(best_value)
 ```bash
 python -m nio --iterations 200 --dimension 5
 ```
-
-This runs the reference implementation from Yang (2010) on a Rastrigin benchmark.
-
-### Visualizing the Cultural Algorithm
-
-Create animated visualizations showing the optimization process:
-
-**Interactive HTML Visualization (opens in browser):**
-
-```python
-from nio.visualize_ca import visualize_ca_html
-
-html_path = visualize_ca_html(
-    bounds=((-5.12, 5.12), (-5.12, 5.12)),
-    population_size=30,
-    iterations=50,
-    save_path="ca_visualization.html",
-    seed=42
-)
-# Opens in browser with interactive controls (play, pause, step, slider)
-```
-
-**Video/GIF Visualization:**
-
-```bash
-# Install visualization dependencies
-pip install matplotlib numpy
-
-# Create visualization
-python -m nio.visualize_ca --iterations 50 --population-size 30 --output ca_optimization.mp4
-```
-
-Or use in Python:
-
-```python
-from nio.visualize_ca import visualize_ca
-
-visualize_ca(
-    bounds=((-5.12, 5.12), (-5.12, 5.12)),
-    population_size=30,
-    iterations=50,
-    save_path="ca_optimization.mp4",
-    seed=42
-)
-```
-
-The visualization shows:
-- Population individuals (blue dots)
-- Best individual (red star)
-- Normative bounds from belief space (green rectangle)
-- Situational knowledge (orange squares)
-- Objective function contour
-
-The HTML version includes interactive controls: play/pause, step-by-step navigation, and a slider to jump to any iteration.
-
-See `examples/README.md` for more visualization examples.
