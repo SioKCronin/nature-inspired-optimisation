@@ -50,6 +50,7 @@ from .cultural import CulturalAlgorithm, Individual, BeliefSpace, NormativeKnowl
 from .iwd_co import IWDCO, WaterDrop, LiquidType, SoilType
 from .water_cycle import WaterCycleAlgorithm, WaterBody, LiquidType as WCA_LiquidType
 from .ppso import PPSO, Particle
+from .dragonfly import DragonflyAlgorithm, Dragonfly
 from .benchmarks import ContractingOptimum, contracting_optimum
 
 __all__ = [
@@ -76,6 +77,8 @@ __all__ = [
     "WCA_LiquidType",
     "PPSO",
     "Particle",
+    "DragonflyAlgorithm",
+    "Dragonfly",
     "ContractingOptimum",
     "contracting_optimum",
 ]

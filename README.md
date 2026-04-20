@@ -42,6 +42,7 @@ Links to original papers introducing (or meta-analysis overviews of) the followi
 * Krill Herd
 * Water Cycle Algorithm 
 * [Proactive Particle Swarm Optimization (PPSO)](https://ieeexplore.ieee.org/document/7337957)
+* [Dragonfly Algorithm (DA)](https://link.springer.com/article/10.1007/s00521-015-1920-1)
 * Black Holes Algorithm
 * Cuttlefish Algorithm
 * Gases Brownian Motion Optimization
@@ -292,6 +293,31 @@ optimizer_inverse = PPSO(
 5. **Adaptive behavior**: Exploration weight decreases over time, allowing the algorithm to converge
 
 The proactive particles help escape local optima by exploring regions that haven't been sampled yet, while reactive particles exploit promising areas found so far.
+
+### Using the Dragonfly Algorithm
+
+The Dragonfly Algorithm (DA) models swarming with separation, alignment, and cohesion, plus food attraction and enemy avoidance. This implementation also predicts prey motion and steers each dragonfly toward an interception point, improving tracking of moving optima.
+
+**Reference:** Mirjalili, S. "Dragonfly algorithm: a new meta-heuristic optimization technique for solving single-objective, discrete, and multi-objective problems." Neural Computing and Applications (2016).
+
+**Basic usage:**
+
+```python
+from nio import DragonflyAlgorithm
+
+optimizer = DragonflyAlgorithm(
+    bounds=[(-5.12, 5.12)] * 5,
+    population_size=40,
+    seed=42,
+)
+best_position, best_value = optimizer.run(iterations=200)
+print(best_value)
+```
+
+**Interception-aware behavior:**
+- **Prey estimation**: Uses best-solution drift across iterations as prey velocity
+- **Interception target**: Computes a predicted prey location using distance/speed time horizon
+- **Adaptive flocking radius**: Starts local and grows toward global coordination
 
 ### Command-line demo
 
