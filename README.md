@@ -78,6 +78,15 @@ Links to original papers introducing (or meta-analysis overviews of) the followi
 * [Swarm Intelligence](https://link.springer.com/journal/11721)
 * [Evolutionary Intelligence](http://www.springer.com/engineering/computational+intelligence+and+complexity/journal/12065)
 
+# Conferences
+
+* [GECCO](http://gecco-2018.sigevo.org/index.html/tiki-index.php?page=HomePage)
+
+# Research teams
+
+* [Tübingen](http://www.ra.cs.uni-tuebingen.de/links/genetisch/welcome_e.html)
+
+
 ## Getting Started
 
 Install the package locally in editable mode::
@@ -329,3 +338,77 @@ print(best_value)
 ```bash
 python -m nio --iterations 200 --dimension 5
 ```
+
+This runs the reference implementation from Yang (2010) on a Rastrigin benchmark.
+
+### Visualizing the Cultural Algorithm
+
+Create animated visualizations showing the optimization process:
+
+**Interactive HTML Visualization (opens in browser):**
+
+```python
+from nio.visualize_ca import visualize_ca_html
+
+html_path = visualize_ca_html(
+    bounds=((-5.12, 5.12), (-5.12, 5.12)),
+    population_size=30,
+    iterations=50,
+    save_path="ca_visualization.html",
+    seed=42
+)
+# Opens in browser with interactive controls (play, pause, step, slider)
+```
+
+**Video/GIF Visualization:**
+
+```bash
+# Install visualization dependencies
+pip install matplotlib numpy
+
+# Create visualization
+python -m nio.visualize_ca --iterations 50 --population-size 30 --output ca_optimization.mp4
+```
+
+Or use in Python:
+
+```python
+from nio.visualize_ca import visualize_ca
+
+visualize_ca(
+    bounds=((-5.12, 5.12), (-5.12, 5.12)),
+    population_size=30,
+    iterations=50,
+    save_path="ca_optimization.mp4",
+    seed=42
+)
+```
+
+The visualization shows:
+- Population individuals (blue dots)
+- Best individual (red star)
+- Normative bounds from belief space (green rectangle)
+- Situational knowledge (orange squares)
+- Objective function contour
+
+The HTML version includes interactive controls: play/pause, step-by-step navigation, and a slider to jump to any iteration.
+
+See `examples/README.md` for more visualization examples.
+
+## Contributing
+
+Contributions are welcome across algorithms, benchmarks, documentation, and examples.
+
+- Open an issue first for substantial feature work to align on scope.
+- Fork the repo and create a focused branch per change.
+- Add or update tests and examples where practical.
+- Keep algorithm references (paper links/citations) in the README or module docstrings.
+- Open a pull request with a clear summary of motivation, approach, and validation steps.
+
+## License
+
+This project is licensed under the MIT License.
+
+Copyright (c) 2018-present Nature-Inspired Optimisation contributors.
+
+Citation date for project start in this repository: **2018-03-26** (earliest commit in git history).
