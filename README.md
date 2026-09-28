@@ -188,6 +188,31 @@ best_position, best_value = optimizer.run(iterations=200)
 Different liquid types create diverse optimization behaviors - fast-flowing liquids like STEAM explore quickly, while slower liquids like HEAVY_WATER provide more controlled convergence.
 
 
+## Lead drones
+
+The corpus is the heritage. The flight environment is what a lead drone can actually run.
+
+`LeaderSwarmEnv` is a small horizontal world: a handful of drones, a couple of them designated as leaders, circular obstacles, and one shared reward. Followers hold formation with boids. Leaders choose a compass heading and a speed. Nothing here depends on Gymnasium or a neural-network library. `reset` and `step` return observation, reward, terminated, truncated, and info, so another agent can drive the same world.
+
+```python
+from nio.flight import LeaderSwarmEnv, plan_actions, train_policy
+
+env = LeaderSwarmEnv(n_drones=8, n_leaders=2, seed=0)
+obs, info = env.reset()
+obs, reward, terminated, truncated, info = env.step(plan_actions(env))
+```
+
+Two ways to choose that step:
+
+- `plan_actions` turns the next waypoint into a cost — distance to the goal, clearance from obstacles, leaders staying together — and minimises it with any name in `nio.OPTIMIZERS`. Grey wolf is the default. `plan_actions_grid` rasterises the same world and follows an ant-colony or river-formation path.
+- `train_policy` fits a heading from two dot products with the leader's observation. On the default world that is 28 floats. The weights start pointed at the goal, and training keeps the episodes that beat the running mean. `to_json` / `from_json` is the form you would copy onto the aircraft. Inference is those two dot products.
+
+```bash
+python examples/leader_swarm_demo.py
+```
+
+The demo flies the same world three ways. A fixed eastward heading scrapes the obstacle. The grey-wolf plan and the trained heading both reach the goal. If matplotlib is installed, the trails are written to `examples/leader_swarm.png`.
+
 ## Contributing
 
 Contributions are welcome across algorithms, benchmarks, documentation, and examples.
