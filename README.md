@@ -4,69 +4,68 @@ My goal with this project is to celebrate optimization strategies from our blue 
 documentation of strategies from nature as a heritage we can all observe, document, and celebrate together. 
 My hope is we can use these algorithms as a meeting ground for refining our collective understanding.
 
-Links to original papers introducing (or meta-analysis overviews of) the following algorithms/heuristics/methods:
+Each link is free to read. Where the journal version is not openly licensed, the link is an author copy, a technical report, an open-access article, or an open overview of the same method.
 
-* Genetic Algorithms (GA)
-* Particle Swarm Optimization (PSO)
-* Artificial immune systems (AIS) 
-* Boids
-* Memetic Algorithm (MA)
-* Ant Colony Optimization (ACO)
-* [Cultural Algorithms (CA)](https://link.springer.com/book/10.1007/978-981-19-4633-2)
-* Particle Swarm Optimization (PSO)
-* Self-propelled Particles
-* Differential Evolution (DE)
-* Bacterial Foraging Optimization
-* Marriage in Honey Bees (MHB) 
-* Artificial Fish School
-* [Bacteria Chemotaxis (BC)](https://ieeexplore.ieee.org/document/985689)
-* [Social Cognitive Optimization (SCO)](https://ieeexplore.ieee.org/document/5660738)
-* Artificial Bee Colony
+* [Genetic Algorithms (GA)](https://www.cs.colostate.edu/TechReports/Reports/1993/tr-103.pdf)
+* [Particle Swarm Optimization (PSO)](http://www.scholarpedia.org/article/Particle_swarm_optimization)
+* [Artificial immune systems (AIS)](https://doi.org/10.25916/sut.26273617)
+* [Boids](https://www.red3d.com/cwr/papers/1987/SIGGRAPH87.pdf)
+* [Memetic Algorithm (MA)](https://cleveralgorithms.com/nature-inspired/physical/memetic_algorithm.html)
+* [Ant Colony Optimization (ACO)](http://www.scholarpedia.org/article/Ant_colony_optimization)
+* [Cultural Algorithms (CA)](https://cleveralgorithms.com/nature-inspired/physical/cultural_algorithm.html)
+* [Self-propelled Particles](https://arxiv.org/abs/cond-mat/0611743)
+* [Differential Evolution (DE)](https://cse.engineering.nyu.edu/~mleung/CS909/s04/Storn95-012.pdf)
+* [Bacterial Foraging Optimization](https://cleveralgorithms.com/nature-inspired/swarm/bfoa.html)
+* [Marriage in Honey Bees (MHB)](https://eprints.ums.edu.my/id/eprint/18801/1/A%20true%20annealing%20approach%20to%20the%20marriage%20in%20honey.pdf)
+* [Artificial Fish School](https://arxiv.org/abs/1405.4138)
+* Bacteria Chemotaxis (BC)
+* [Social Cognitive Optimization (SCO)](http://www.wiomax.com/team/xie/paper/ICMLC02A.pdf)
+* [Artificial Bee Colony](https://abc.erciyes.edu.tr/pub/tr06_2005.pdf)
 * Glowworm Swarm Optimization (GSO)
-* Honey-Bees Mating Optimization (HBMO)
-* Invasive Weed Optimization (IWO)
-* Shuffled Frog Leaping Algorithm (SFLA)
-* [Intelligent Water Drops - Continuous Optimization(IWD-CO)](https://www.sciencedirect.com/science/article/pii/S1877042812000341)
-* [River Formation Dynamics](https://www.sciencedirect.com/science/article/abs/pii/S1877750317307184)
-* Biogeography-based Optimization (BBO)
-* Roach Infestation Optimization (RIO)
+* [Honey-Bees Mating Optimization (HBMO)](https://people.cs.nott.ac.uk/pszrq/files/EJOR12-hbmo.pdf)
+* [Invasive Weed Optimization (IWO)](https://aie.ut.ac.ir/article_23331_b88ba4bb2d5ae64992dce9ed834cfcd7.pdf)
+* [Shuffled Frog Leaping Algorithm (SFLA)](https://arxiv.org/abs/2202.03477)
+* [Intelligent Water Drops (IWD)](https://www.intechopen.com/chapters/10938)
+* [River Formation Dynamics](https://docta.ucm.es/bitstreams/569ddc3c-c407-42c0-ac18-ad2cb6f8ea79/download)
+* [Biogeography-based Optimization (BBO)](https://engagedscholarship.csuohio.edu/enece_facpub/18)
+* [Roach Infestation Optimization (RIO)](https://mospace.umsystem.edu/items/0ac3a24e-acbd-47fb-a139-ed1a2e493a51)
 * Bacterial Evolutionary Algorithm (BEA)
-* Cuckoo Search (CS)
-* [Firefly Algorithm (FA)](https://arxiv.org/abs/1003.1466) 
+* [Cuckoo Search (CS)](https://arxiv.org/abs/1003.1594)
+* [Firefly Algorithm (FA)](https://arxiv.org/abs/1003.1466)
 * Gravitational Search Algorithm (GSA)
-* [Bat Algorithm](https://www.sciencedirect.com/science/article/abs/pii/S1877750322002903)
-* [Phillippine Eagle Optimization Algorithm](https://ieeexplore.ieee.org/document/9732449)
-* Fireworks algorithm
-* [Altruistic Population Algorithm](https://www.sciencedirect.com/science/article/abs/pii/S037847542300109X)
-* Spiral Dynamic Algorithm (SDA)
-* Strawberry Algorithm
-* Artificial Algae Algorithm (AAA) 
-* Bacterial Colony Optimization
-* Flower pollination algorithm (FPA)
+* [Bat Algorithm](https://arxiv.org/abs/1004.4170)
+* [Philippine Eagle Optimization Algorithm](https://arxiv.org/abs/2112.10318)
+* [Fireworks algorithm](https://iasei.org/pkucil/docs/ICSI2010zhuyuanchun.pdf)
+* Altruistic Population Algorithm
+* [Spiral Dynamic Algorithm (SDA)](https://www.fujipress.jp/jaciii/jc/jacii001500081116/)
+* [Strawberry Algorithm](https://repository.essex.ac.uk/12110/1/Nature%20Inspired%20Optimisation%20Approaches%20and%20the%20New%20Plant%20Propagation%20Algorithm.pdf)
+* Artificial Algae Algorithm (AAA)
+* [Bacterial Colony Optimization](https://doi.org/10.1155/2012/698057)
+* [Flower pollination algorithm (FPA)](https://arxiv.org/abs/1312.5673)
 * Krill Herd
-* Water Cycle Algorithm 
-* [Proactive Particle Swarm Optimization (PPSO)](https://ieeexplore.ieee.org/document/7337957)
-* [Dragonfly Algorithm (DA)](https://link.springer.com/article/10.1007/s00521-015-1920-1)
-* Black Holes Algorithm
+* [Water Cycle Algorithm](https://doi.org/10.1016/j.softx.2016.03.001)
+* Proactive Particle Swarm Optimization (PPSO)
+* [Dragonfly Algorithm (DA)](https://arxiv.org/abs/2002.12126)
+* [Black Holes Algorithm](https://cke.um.ac.ir/article_40781_d43cbfe7212ea500e60ae3cafbf2f205.pdf)
 * Cuttlefish Algorithm
 * Gases Brownian Motion Optimization
 * Mine blast algorithm
-* Plant Propagation Algorithm
-* Social Spider Optimization (SSO)
-* Spider Monkey Optimization (SMO) 
-* Animal Migration Optimization (AMO) 
+* [Plant Propagation Algorithm](https://repository.essex.ac.uk/12110/1/Nature%20Inspired%20Optimisation%20Approaches%20and%20the%20New%20Plant%20Propagation%20Algorithm.pdf)
+* [Social Spider Optimization (SSO)](https://arxiv.org/abs/1406.3282)
+* [Spider Monkey Optimization (SMO)](https://people.sau.int/~jcbansal/uploads/3-Spider_Monkey_Optimization.pdf)
+* Animal Migration Optimization (AMO)
 * Artificial Ecosystem Algorithm (AEA)
 * Bird Mating Optimizer
-* [Forest Optimization Algorithm (FOA)](https://www.sciencedirect.com/science/article/abs/pii/S0957417414002899)
-* Grey Wolf Optimizer
-* Lion Optimization Algorithm (LOA)
-* Optics Inspired Optimization (OIO)
+* Forest Optimization Algorithm (FOA)
+* [Grey Wolf Optimizer](https://research-repository.griffith.edu.au/items/248bcf34-1e29-42f8-935b-3c3e71ad9d87)
+* [Lion Optimization Algorithm (LOA)](https://doi.org/10.1016/j.jcde.2015.06.003)
+* [Optics Inspired Optimization (OIO)](https://itc.ktu.lt/index.php/ITC/article/download/20627/12766)
 * The Raven Roosting Optimisation Algorithm
 * [Water Wave Optimization](https://www.sciencedirect.com/science/article/pii/S0305054814002652)
-* Collective animal behavior (CAB)
-* Aritificial Chemical Process Algorithm
-* Bull optimization algorithm
-* Elephent herding optimization (EHO)
+* [Collective animal behavior (CAB)](https://doi.org/10.1155/2012/638275)
+* Artificial Chemical Process Algorithm
+* [Bull optimization algorithm](https://journals.tubitak.gov.tr/elektrik/vol23/iss7/16/)
+* [Elephant herding optimization (EHO)](https://www.mdpi.com/2227-7390/8/9/1415)
 
 # Publications
 
