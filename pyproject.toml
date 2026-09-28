@@ -37,7 +37,7 @@ Source = "https://github.com/siobhan/library-of-nature-inspired-optimization"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["nio"]
+include = ["nio", "nio.*"]
 
 [tool.setuptools]
 include-package-data = true

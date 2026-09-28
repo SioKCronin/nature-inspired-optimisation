@@ -4,69 +4,70 @@ My goal with this project is to celebrate optimization strategies from our blue 
 documentation of strategies from nature as a heritage we can all observe, document, and celebrate together. 
 My hope is we can use these algorithms as a meeting ground for refining our collective understanding.
 
+Every method below is implemented. Continuous optimizers share one contract: construct with an objective, bounds, population size, and seed, then call `run(iterations)` to minimise. Short names live in `nio.OPTIMIZERS`. Boids and self-propelled particles are movement models. Ant colony and river formation dynamics also run as grid pathfinders.
+
 Links to original papers introducing (or meta-analysis overviews of) the following algorithms/heuristics/methods:
 
-* Genetic Algorithms (GA)
-* Particle Swarm Optimization (PSO)
-* Artificial immune systems (AIS) 
-* Boids
-* Memetic Algorithm (MA)
-* Ant Colony Optimization (ACO)
-* [Cultural Algorithms (CA)](https://link.springer.com/book/10.1007/978-981-19-4633-2)
-* Particle Swarm Optimization (PSO)
-* Self-propelled Particles
-* Differential Evolution (DE)
-* Bacterial Foraging Optimization
-* Marriage in Honey Bees (MHB) 
-* Artificial Fish School
-* [Bacteria Chemotaxis (BC)](https://ieeexplore.ieee.org/document/985689)
-* [Social Cognitive Optimization (SCO)](https://ieeexplore.ieee.org/document/5660738)
-* Artificial Bee Colony
-* Glowworm Swarm Optimization (GSO)
-* Honey-Bees Mating Optimization (HBMO)
-* Invasive Weed Optimization (IWO)
-* Shuffled Frog Leaping Algorithm (SFLA)
-* [Intelligent Water Drops - Continuous Optimization(IWD-CO)](https://www.sciencedirect.com/science/article/pii/S1877042812000341)
-* [River Formation Dynamics](https://www.sciencedirect.com/science/article/abs/pii/S1877750317307184)
-* Biogeography-based Optimization (BBO)
-* Roach Infestation Optimization (RIO)
-* Bacterial Evolutionary Algorithm (BEA)
-* Cuckoo Search (CS)
-* [Firefly Algorithm (FA)](https://arxiv.org/abs/1003.1466) 
-* Gravitational Search Algorithm (GSA)
-* [Bat Algorithm](https://www.sciencedirect.com/science/article/abs/pii/S1877750322002903)
-* [Phillippine Eagle Optimization Algorithm](https://ieeexplore.ieee.org/document/9732449)
-* Fireworks algorithm
-* [Altruistic Population Algorithm](https://www.sciencedirect.com/science/article/abs/pii/S037847542300109X)
-* Spiral Dynamic Algorithm (SDA)
-* Strawberry Algorithm
-* Artificial Algae Algorithm (AAA) 
-* Bacterial Colony Optimization
-* Flower pollination algorithm (FPA)
-* Krill Herd
-* Water Cycle Algorithm 
-* [Proactive Particle Swarm Optimization (PPSO)](https://ieeexplore.ieee.org/document/7337957)
-* [Dragonfly Algorithm (DA)](https://link.springer.com/article/10.1007/s00521-015-1920-1)
-* Black Holes Algorithm
-* Cuttlefish Algorithm
-* Gases Brownian Motion Optimization
-* Mine blast algorithm
-* Plant Propagation Algorithm
-* Social Spider Optimization (SSO)
-* Spider Monkey Optimization (SMO) 
-* Animal Migration Optimization (AMO) 
-* Artificial Ecosystem Algorithm (AEA)
-* Bird Mating Optimizer
-* [Forest Optimization Algorithm (FOA)](https://www.sciencedirect.com/science/article/abs/pii/S0957417414002899)
-* Grey Wolf Optimizer
-* Lion Optimization Algorithm (LOA)
-* Optics Inspired Optimization (OIO)
-* The Raven Roosting Optimisation Algorithm
-* [Water Wave Optimization](https://www.sciencedirect.com/science/article/pii/S0305054814002652)
-* Collective animal behavior (CAB)
-* Aritificial Chemical Process Algorithm
-* Bull optimization algorithm
-* Elephent herding optimization (EHO)
+* Genetic Algorithms (GA) — `GeneticAlgorithm`
+* Particle Swarm Optimization (PSO) — `ParticleSwarmOptimization`
+* Artificial immune systems (AIS) — `ClonalSelection`
+* Boids — `boids_step`
+* Memetic Algorithm (MA) — `MemeticAlgorithm`
+* Ant Colony Optimization (ACO) — `AntColonyOptimization`, and `AntColonyPath` on a grid
+* [Cultural Algorithms (CA)](https://link.springer.com/book/10.1007/978-981-19-4633-2) — `CulturalAlgorithm`
+* Self-propelled Particles — `vicsek_step`
+* Differential Evolution (DE) — `DifferentialEvolution`
+* Bacterial Foraging Optimization — `BacterialForagingOptimization`
+* Marriage in Honey Bees (MHB) — `MarriageInHoneyBees`
+* Artificial Fish School — `ArtificialFishSchool`
+* [Bacteria Chemotaxis (BC)](https://ieeexplore.ieee.org/document/985689) — `BacterialChemotaxis`
+* [Social Cognitive Optimization (SCO)](https://ieeexplore.ieee.org/document/5660738) — `SocialCognitiveOptimization`
+* Artificial Bee Colony — `ArtificialBeeColony`
+* Glowworm Swarm Optimization (GSO) — `GlowwormSwarmOptimization`
+* Honey-Bees Mating Optimization (HBMO) — `HoneyBeeMatingOptimization`
+* Invasive Weed Optimization (IWO) — `InvasiveWeedOptimization`
+* Shuffled Frog Leaping Algorithm (SFLA) — `ShuffledFrogLeaping`
+* [Intelligent Water Drops - Continuous Optimization(IWD-CO)](https://www.sciencedirect.com/science/article/pii/S1877042812000341) — `IWDCO`
+* [River Formation Dynamics](https://www.sciencedirect.com/science/article/abs/pii/S1877750317307184) — `RiverFormationDynamics`
+* Biogeography-based Optimization (BBO) — `BiogeographyBasedOptimization`
+* Roach Infestation Optimization (RIO) — `RoachInfestationOptimization`
+* Bacterial Evolutionary Algorithm (BEA) — `BacterialEvolutionaryAlgorithm`
+* Cuckoo Search (CS) — `CuckooSearch`
+* [Firefly Algorithm (FA)](https://arxiv.org/abs/1003.1466) — `FireflyAlgorithm`
+* Gravitational Search Algorithm (GSA) — `GravitationalSearchAlgorithm`
+* [Bat Algorithm](https://www.sciencedirect.com/science/article/abs/pii/S1877750322002903) — `BatAlgorithm`
+* [Phillippine Eagle Optimization Algorithm](https://ieeexplore.ieee.org/document/9732449) — `PhilippineEagleOptimization`
+* Fireworks algorithm — `FireworksAlgorithm`
+* [Altruistic Population Algorithm](https://www.sciencedirect.com/science/article/abs/pii/S037847542300109X) — `AltruisticPopulationAlgorithm`
+* Spiral Dynamic Algorithm (SDA) — `SpiralDynamicAlgorithm`
+* Strawberry Algorithm — `StrawberryAlgorithm`
+* Artificial Algae Algorithm (AAA) — `ArtificialAlgaeAlgorithm`
+* Bacterial Colony Optimization — `BacterialColonyOptimization`
+* Flower pollination algorithm (FPA) — `FlowerPollinationAlgorithm`
+* Krill Herd — `KrillHerd`
+* Water Cycle Algorithm — `WaterCycleAlgorithm`
+* [Proactive Particle Swarm Optimization (PPSO)](https://ieeexplore.ieee.org/document/7337957) — `PPSO`
+* [Dragonfly Algorithm (DA)](https://link.springer.com/article/10.1007/s00521-015-1920-1) — `DragonflyAlgorithm`
+* Black Holes Algorithm — `BlackHoleAlgorithm`
+* Cuttlefish Algorithm — `CuttlefishAlgorithm`
+* Gases Brownian Motion Optimization — `GasesBrownianMotionOptimization`
+* Mine blast algorithm — `MineBlastAlgorithm`
+* Plant Propagation Algorithm — `PlantPropagationAlgorithm`
+* Social Spider Optimization (SSO) — `SocialSpiderOptimization`
+* Spider Monkey Optimization (SMO) — `SpiderMonkeyOptimization`
+* Animal Migration Optimization (AMO) — `AnimalMigrationOptimization`
+* Artificial Ecosystem Algorithm (AEA) — `ArtificialEcosystemAlgorithm`
+* Bird Mating Optimizer — `BirdMatingOptimizer`
+* [Forest Optimization Algorithm (FOA)](https://www.sciencedirect.com/science/article/abs/pii/S0957417414002899) — `ForestOptimizationAlgorithm`
+* Grey Wolf Optimizer — `GreyWolfOptimizer`
+* Lion Optimization Algorithm (LOA) — `LionOptimizationAlgorithm`
+* Optics Inspired Optimization (OIO) — `OpticsInspiredOptimization`
+* The Raven Roosting Optimisation Algorithm — `RavenRoostingOptimization`
+* [Water Wave Optimization](https://www.sciencedirect.com/science/article/pii/S0305054814002652) — `WaterWaveOptimization`
+* Collective animal behavior (CAB) — `CollectiveAnimalBehavior`
+* Aritificial Chemical Process Algorithm — `ArtificialChemicalReactionOptimization`
+* Bull optimization algorithm — `BullOptimizationAlgorithm`
+* Elephent herding optimization (EHO) — `ElephantHerdingOptimization`
 
 # Publications
 
@@ -188,6 +189,31 @@ best_position, best_value = optimizer.run(iterations=200)
 
 Different liquid types create diverse optimization behaviors - fast-flowing liquids like STEAM explore quickly, while slower liquids like HEAVY_WATER provide more controlled convergence.
 
+
+## Lead drones
+
+The corpus is the heritage. The flight environment is what a lead drone can actually run.
+
+`LeaderSwarmEnv` is a small horizontal world: a handful of drones, a couple of them designated as leaders, circular obstacles, and one shared reward. Followers hold formation with boids. Leaders choose a compass heading and a speed. Nothing here depends on Gymnasium or a neural-network library. `reset` and `step` return observation, reward, terminated, truncated, and info, so another agent can drive the same world.
+
+```python
+from nio.flight import LeaderSwarmEnv, plan_actions, train_policy
+
+env = LeaderSwarmEnv(n_drones=8, n_leaders=2, seed=0)
+obs, info = env.reset()
+obs, reward, terminated, truncated, info = env.step(plan_actions(env))
+```
+
+Two ways to choose that step:
+
+- `plan_actions` turns the next waypoint into a cost — distance to the goal, clearance from obstacles, leaders staying together — and minimises it with any name in `nio.OPTIMIZERS`. Grey wolf is the default. `plan_actions_grid` rasterises the same world and follows an ant-colony or river-formation path.
+- `train_policy` fits a heading from two dot products with the leader's observation. On the default world that is 28 floats. The weights start pointed at the goal, and training keeps the episodes that beat the running mean. `to_json` / `from_json` is the form you would copy onto the aircraft. Inference is those two dot products.
+
+```bash
+python examples/leader_swarm_demo.py
+```
+
+The demo flies the same world three ways. A fixed eastward heading scrapes the obstacle. The grey-wolf plan and the trained heading both reach the goal. If matplotlib is installed, the trails are written to `examples/leader_swarm.png`.
 
 ## Contributing
 
