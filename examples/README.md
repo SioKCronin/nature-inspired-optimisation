@@ -2,6 +2,14 @@
 
 This directory contains examples demonstrating various features of the nio library.
 
+## Lead drones
+
+Fly the same world three ways: a fixed heading, a grey-wolf waypoint plan, and a 28-float heading policy.
+
+```bash
+python examples/leader_swarm_demo.py
+```
+
 ## Algorithm Comparison
 
 Compare PPSO, IWD-CO, and Water Cycle Algorithm performance and explore hybrid approaches:
