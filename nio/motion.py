@@ -1,4 +1,4 @@
-"""Collective movement models used by the swarm and the flight environment.
+"""Collective movement models.
 
 These are not minimizers. They update positions and velocities of a group.
 """
