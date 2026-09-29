@@ -2,12 +2,12 @@
 
 This directory contains examples demonstrating various features of the nio library.
 
-## Lead drones
+## Training episode
 
-Fly the same world three ways: a fixed heading, a grey-wolf waypoint plan, and a 28-float heading policy.
+Run one algorithm from the list, then a trained policy, on the same search.
 
 ```bash
-python examples/leader_swarm_demo.py
+python examples/train_demo.py
 ```
 
 ## Algorithm Comparison

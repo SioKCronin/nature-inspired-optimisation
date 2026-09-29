@@ -9,7 +9,8 @@ Continuous optimizers share one contract::
 
 The same classes are available by short name from :data:`nio.registry.OPTIMIZERS`.
 Collective motion (Boids, Vicsek) and grid pathfinders (ant colony, river
-formation) sit beside them. Lead drones use :class:`nio.flight.LeaderSwarmEnv`.
+formation) sit beside them. :class:`nio.rl.TrainingEnv` is the training
+episode any of those optimizers can take.
 """
 
 from .abc import ArtificialBeeColony
@@ -74,7 +75,7 @@ from .strawberry import StrawberryAlgorithm
 from .water_cycle import WaterBody, WaterCycleAlgorithm
 from .water_cycle import LiquidType as WCA_LiquidType
 from .water_wave import WaterWaveOptimization
-from .flight import LeaderSwarmEnv, LinearPolicy, plan_actions, train_policy
+from .rl import LinearPolicy, TrainingEnv, rollout, train_policy
 
 __all__ = [
     "OPTIMIZERS",
@@ -127,7 +128,7 @@ __all__ = [
     "Individual",
     "InvasiveWeedOptimization",
     "KrillHerd",
-    "LeaderSwarmEnv",
+    "TrainingEnv",
     "LinearPolicy",
     "LionOptimizationAlgorithm",
     "LiquidType",
@@ -161,7 +162,7 @@ __all__ = [
     "WaterDrop",
     "WaterWaveOptimization",
     "boids_step",
-    "plan_actions",
+    "rollout",
     "train_policy",
     "vicsek_step",
 ]
