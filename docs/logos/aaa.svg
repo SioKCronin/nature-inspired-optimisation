@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Artificial Algae">
+  <title>Artificial Algae</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M30 74 C28 60 38 58 32 46 C26 34 34 30 30 18"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" d="M48 76 C50 58 40 56 48 42 C56 28 46 24 50 16"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M66 74 C64 62 74 56 66 44 C58 32 70 28 64 18"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" d="M22 76 H74"/>
+
+</svg>

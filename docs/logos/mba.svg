@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Mine Blast">
+  <title>Mine Blast</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <polygon fill="#1a1814" points="43.8,68.0 48.0,34.0 52.2,68.0"/>
+  <polygon fill="#1a1814" points="44.1,66.4 60.7,36.5 51.9,69.6"/>
+  <polygon fill="#1a1814" points="44.1,69.6 35.3,36.5 51.9,66.4"/>
+  <polygon fill="#1a1814" points="44.9,65.2 65.4,48.7 51.1,70.8"/>
+  <polygon fill="#1a1814" points="44.9,70.8 30.6,48.7 51.1,65.2"/>
+  <polygon fill="#1a1814" points="43.9,67.1 53.4,42.6 52.1,68.9"/>
+  <polygon fill="#1a1814" points="43.9,68.9 42.6,42.6 52.1,67.1"/>
+  <path fill="none" stroke="#1a1814" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" d="M16 70 H80"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Self-propelled Particles">
+  <title>Self-propelled Particles</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <circle fill="#1a1814" cx="30.0" cy="58.0" r="4.2"/>
+  <polygon fill="#1a1814" points="33.0,56.0 44.0,49.0 38.0,57.0"/>
+  <circle fill="#1a1814" cx="46.0" cy="44.0" r="4.2"/>
+  <polygon fill="#1a1814" points="49.0,42.0 60.0,35.0 54.0,43.0"/>
+  <circle fill="#1a1814" cx="62.0" cy="30.0" r="4.2"/>
+  <polygon fill="#1a1814" points="65.0,28.0 76.0,21.0 70.0,29.0"/>
+  <circle fill="#1a1814" cx="28.0" cy="34.0" r="4.2"/>
+  <polygon fill="#1a1814" points="31.0,32.0 42.0,25.0 36.0,33.0"/>
+  <circle fill="#1a1814" cx="64.0" cy="62.0" r="4.2"/>
+  <polygon fill="#1a1814" points="67.0,60.0 78.0,53.0 72.0,61.0"/>
+
+</svg>

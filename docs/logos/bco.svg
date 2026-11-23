@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Bacterial Colony">
+  <title>Bacterial Colony</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <rect fill="#1a1814" x="22.0" y="28.0" width="30.0" height="12.0" rx="6.0" transform="rotate(-18.0 37.0 34.0)"/>
+  <rect fill="#1a1814" x="40.0" y="36.0" width="32.0" height="12.0" rx="6.0" transform="rotate(16.0 56.0 42.0)"/>
+  <rect fill="#1a1814" x="18.0" y="48.0" width="28.0" height="11.0" rx="5.5" transform="rotate(8.0 32.0 53.5)"/>
+  <rect fill="#1a1814" x="44.0" y="52.0" width="30.0" height="12.0" rx="6.0" transform="rotate(-12.0 59.0 58.0)"/>
+  <rect fill="#1a1814" x="30.0" y="62.0" width="26.0" height="10.0" rx="5.0" transform="rotate(20.0 43.0 67.0)"/>
+
+</svg>

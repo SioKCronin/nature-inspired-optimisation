@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Artificial Fish School">
+  <title>Artificial Fish School</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <polygon fill="#1a1814" points="34.1,30.0 25.6,24.1 25.6,36.0"/>
+  <ellipse fill="#1a1814" cx="46.0" cy="30.0" rx="11.9" ry="5.5"/>
+  <polygon fill="#1a1814" points="39.3,48.0 28.8,40.6 28.8,55.4"/>
+  <ellipse fill="#1a1814" cx="54.0" cy="48.0" rx="14.7" ry="6.8"/>
+  <polygon fill="#1a1814" points="31.1,66.0 23.3,60.5 23.3,71.5"/>
+  <ellipse fill="#1a1814" cx="42.0" cy="66.0" rx="10.9" ry="5.1"/>
+
+</svg>

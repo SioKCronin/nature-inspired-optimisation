@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Animal Migration">
+  <title>Animal Migration</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="#1a1814" d="M30.0 28.0 l7.0 -4.5 l7.0 4.5 l-2.4 0 l-4.6 -2.6 l-4.6 2.6 z"/>
+  <path fill="#1a1814" d="M44.0 36.0 l7.0 -4.5 l7.0 4.5 l-2.4 0 l-4.6 -2.6 l-4.6 2.6 z"/>
+  <path fill="#1a1814" d="M58.0 44.0 l7.0 -4.5 l7.0 4.5 l-2.4 0 l-4.6 -2.6 l-4.6 2.6 z"/>
+  <path fill="#1a1814" d="M44.0 52.0 l7.0 -4.5 l7.0 4.5 l-2.4 0 l-4.6 -2.6 l-4.6 2.6 z"/>
+  <path fill="#1a1814" d="M30.0 60.0 l7.0 -4.5 l7.0 4.5 l-2.4 0 l-4.6 -2.6 l-4.6 2.6 z"/>
+
+</svg>

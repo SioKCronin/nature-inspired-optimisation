@@ -1,8 +1,10 @@
 """Altruistic Population Algorithm.
 
 Reference:
-Cuevas, E., Gálvez, J., & Avalos, O. (2023). An altruistic population algorithm.
-Simulation Modelling Practice and Theory.
+Ouyang, H., Chen, J., Li, S., Xiang, J., & Zhan, Z.-H. (2023). Altruistic
+population algorithm: a metaheuristic search algorithm for solving multimodal
+multi-objective optimization problems. Mathematics and Computers in Simulation,
+210, 296–319.
 """
 
 from __future__ import annotations

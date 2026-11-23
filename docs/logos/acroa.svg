@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Artificial Chemical Reaction">
+  <title>Artificial Chemical Reaction</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="#1a1814" d="M38 20 H58 V34 L74 72 A8 8 0 0 1 66 82 H30 A8 8 0 0 1 22 72 L38 34 Z"/>
+  <circle fill="#f3efe6" cx="44" cy="60" r="3.2"/>
+  <circle fill="#f3efe6" cx="56" cy="68" r="2.6"/>
+  <circle fill="#f3efe6" cx="46" cy="72" r="2.1"/>
+
+</svg>

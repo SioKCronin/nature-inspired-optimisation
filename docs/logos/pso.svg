@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Particle Swarm">
+  <title>Particle Swarm</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="#1a1814" d="M20.0 58.0 L41.3 47.3 L32.3 56.8 Z"/>
+  <path fill="#1a1814" d="M20.0 58.0 L38.0 70.3 L29.8 60.5 Z"/>
+  <path fill="#1a1814" d="M34.0 34.0 L60.0 21.0 L49.0 32.5 Z"/>
+  <path fill="#1a1814" d="M34.0 34.0 L56.0 49.0 L46.0 37.0 Z"/>
+  <path fill="#1a1814" d="M50.0 56.0 L68.7 46.6 L60.8 54.9 Z"/>
+  <path fill="#1a1814" d="M50.0 56.0 L65.8 66.8 L58.6 58.2 Z"/>
+
+</svg>

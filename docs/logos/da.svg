@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Dragonfly Algorithm">
+  <title>Dragonfly Algorithm</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <ellipse fill="#1a1814" cx="30.0" cy="40.0" rx="16.0" ry="6.0" transform="rotate(-28.0 30.0 40.0)"/>
+  <ellipse fill="#1a1814" cx="66.0" cy="40.0" rx="16.0" ry="6.0" transform="rotate(28.0 66.0 40.0)"/>
+  <ellipse fill="#1a1814" cx="32.0" cy="58.0" rx="14.0" ry="5.5" transform="rotate(22.0 32.0 58.0)"/>
+  <ellipse fill="#1a1814" cx="64.0" cy="58.0" rx="14.0" ry="5.5" transform="rotate(-22.0 64.0 58.0)"/>
+  <rect fill="#1a1814" x="44.0" y="24.0" width="8.0" height="50.0" rx="4.0"/>
+  <circle fill="#1a1814" cx="48.0" cy="22.0" r="6.0"/>
+
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Lion Optimization">
+  <title>Lion Optimization</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="#1a1814" d="M48.0 26.0 L50.8 34.2 L56.2 27.4 L56.0 36.1 L63.4 31.6 L60.3 39.7 L68.8 38.0 L63.0 44.5 L71.6 45.8 L64.0 50.0 L71.6 54.2 L63.0 55.5 L68.8 62.0 L60.3 60.3 L63.4 68.4 L56.0 63.9 L56.2 72.6 L50.8 65.8 L48.0 74.0 L45.2 65.8 L39.8 72.6 L40.0 63.9 L32.6 68.4 L35.7 60.3 L27.2 62.0 L33.0 55.5 L24.4 54.2 L32.0 50.0 L24.4 45.8 L33.0 44.5 L27.2 38.0 L35.7 39.7 L32.6 31.6 L40.0 36.1 L39.8 27.4 L45.2 34.2 Z"/>
+  <circle fill="#1a1814" cx="30.0" cy="28.0" r="6.0"/>
+  <circle fill="#1a1814" cx="66.0" cy="28.0" r="6.0"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="66.0" rx="9.0" ry="7.0"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Roach Infestation">
+  <title>Roach Infestation</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <ellipse fill="#1a1814" cx="50.0" cy="52.0" rx="20.0" ry="12.0"/>
+  <circle fill="#1a1814" cx="30.0" cy="50.0" r="7.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M26 46 C14 34 8 30 12 22"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M28 44 C18 36 16 28 22 22"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M40 42 C34 30 28 28 22 34"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M46 40 C46 28 52 24 60 30"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M58 44 C70 32 78 34 82 42"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M40 62 C32 74 26 76 20 70"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M52 64 C52 76 60 78 66 70"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M62 60 C74 70 80 66 78 56"/>
+
+</svg>

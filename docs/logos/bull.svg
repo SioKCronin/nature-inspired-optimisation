@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Bull Optimization">
+  <title>Bull Optimization</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="56.0" rx="16.0" ry="14.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" d="M34 50 C26 36 16 28 14 16"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" d="M62 50 C70 36 80 28 82 16"/>
+  <ellipse fill="#1a1814" cx="30.0" cy="52.0" rx="6.0" ry="4.0" transform="rotate(-20.0 30.0 52.0)"/>
+  <ellipse fill="#1a1814" cx="66.0" cy="52.0" rx="6.0" ry="4.0" transform="rotate(20.0 66.0 52.0)"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="66.0" rx="8.0" ry="6.0"/>
+
+</svg>

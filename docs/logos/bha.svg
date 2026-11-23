@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Black Hole">
+  <title>Black Hole</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="#1a1814" fill-rule="evenodd" d="M18 52 A30 13 0 1 1 78 52 A30 13 0 1 1 18 52 Z M36 52 A12 5 0 1 0 60 52 A12 5 0 1 0 36 52 Z"/>
+
+</svg>

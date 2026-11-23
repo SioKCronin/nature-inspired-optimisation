@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Altruistic Population">
+  <title>Altruistic Population</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <circle fill="#1a1814" cx="30.0" cy="30.0" r="6.5"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M30 37 V58 M30 44 H46 M30 58 L22 72 M30 58 L38 72"/>
+  <circle fill="#1a1814" cx="50.0" cy="42.0" r="5.0"/>
+  <circle fill="#1a1814" cx="68.0" cy="30.0" r="6.5"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M68 37 V58 M68 44 H54 M68 58 L60 72 M68 58 L76 72"/>
+
+</svg>

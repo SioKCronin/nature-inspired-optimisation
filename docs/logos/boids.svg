@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Boids">
+  <title>Boids</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="#1a1814" d="M18.0 48.0 L41.4 36.3 L31.5 46.6 Z"/>
+  <path fill="#1a1814" d="M18.0 48.0 L37.8 61.5 L28.8 50.7 Z"/>
+  <path fill="#1a1814" d="M42.0 30.0 L65.4 18.3 L55.5 28.6 Z"/>
+  <path fill="#1a1814" d="M42.0 30.0 L61.8 43.5 L52.8 32.7 Z"/>
+  <path fill="#1a1814" d="M42.0 64.0 L65.4 52.3 L55.5 62.6 Z"/>
+  <path fill="#1a1814" d="M42.0 64.0 L61.8 77.5 L52.8 66.7 Z"/>
+
+</svg>

@@ -2,8 +2,9 @@
 Proactive Particle Swarm Optimization (PPSO) Implementation
 
 Reference:
-Cheng, R., & Jin, Y. (2015). A social learning particle swarm optimization algorithm 
-for scalable optimization. Information Sciences, 291, 43-60.
+Nobile, M. S., Pasi, G., Cazzaniga, P., Besozzi, D., Colombo, R., & Mauri, G.
+(2015). Proactive Particles in Swarm Optimization: a self-tuning algorithm
+based on fuzzy logic. IEEE International Conference on Fuzzy Systems.
 
 The algorithm uses proactive particles that use knowledge gain metrics to explore
 regions with low sample density, combined with traditional reactive particles.

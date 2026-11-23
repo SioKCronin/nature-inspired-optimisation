@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Genetic Algorithm">
+  <title>Genetic Algorithm</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M34 22 C34 34 64 34 64 46 C64 58 34 58 34 72"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M62 22 C62 34 32 34 32 46 C32 58 62 58 62 72"/>
+  <rect fill="#1a1814" x="40.0" y="31.0" width="16.0" height="4.5" rx="2.0"/>
+  <rect fill="#1a1814" x="39.0" y="45.0" width="18.0" height="4.5" rx="2.0"/>
+  <rect fill="#1a1814" x="40.0" y="59.0" width="16.0" height="4.5" rx="2.0"/>
+
+</svg>

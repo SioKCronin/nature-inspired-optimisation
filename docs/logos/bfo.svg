@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Bacterial Foraging">
+  <title>Bacterial Foraging</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <rect fill="#1a1814" x="30.0" y="40.0" width="40.0" height="16.0" rx="8.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M32.0 44.0 C20.0 34.0 14.0 40.0 18.0 50.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M32.0 48.0 C18.0 46.0 14.0 54.0 20.0 60.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M32.0 52.0 C22.0 60.0 16.0 64.0 24.0 68.0"/>
+
+</svg>

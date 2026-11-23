@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Marriage in Honey Bees">
+  <title>Marriage in Honey Bees</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <ellipse fill="#1a1814" cx="38.4" cy="33.0" rx="6.2" ry="3.1" transform="rotate(-18.0 38.4 33.0)"/>
+  <ellipse fill="#1a1814" cx="46.2" cy="34.5" rx="5.5" ry="2.7" transform="rotate(-8.0 46.2 34.5)"/>
+  <ellipse fill="#1a1814" cx="44.7" cy="40.8" rx="9.4" ry="6.2"/>
+  <rect fill="#f3efe6" x="38.4" y="37.3" width="12.5" height="1.8" rx="0.6"/>
+  <rect fill="#f3efe6" x="38.4" y="40.9" width="12.5" height="1.8" rx="0.6"/>
+  <circle fill="#1a1814" cx="32.2" cy="40.4" r="4.1"/>
+  <circle fill="#1a1814" cx="27.5" cy="40.9" r="2.8"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M26.0 39.2 C21.3 35.3 22.8 30.6 27.5 32.2"/>
+  <ellipse fill="#1a1814" cx="60.8" cy="56.4" rx="5.0" ry="2.5" transform="rotate(-18.0 60.8 56.4)"/>
+  <ellipse fill="#1a1814" cx="67.0" cy="57.7" rx="4.3" ry="2.1" transform="rotate(-8.0 67.0 57.7)"/>
+  <ellipse fill="#1a1814" cx="65.7" cy="62.6" rx="7.4" ry="5.0"/>
+  <rect fill="#f3efe6" x="60.8" y="59.9" width="9.9" height="1.4" rx="0.6"/>
+  <rect fill="#f3efe6" x="60.8" y="62.7" width="9.9" height="1.4" rx="0.6"/>
+  <circle fill="#1a1814" cx="55.8" cy="62.3" r="3.2"/>
+  <circle fill="#1a1814" cx="52.1" cy="62.7" r="2.2"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M50.8 61.4 C47.1 58.3 48.4 54.6 52.1 55.8"/>
+
+</svg>

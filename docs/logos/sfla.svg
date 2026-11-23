@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Shuffled Frog Leaping">
+  <title>Shuffled Frog Leaping</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <ellipse fill="#1a1814" cx="38.0" cy="58.0" rx="13.0" ry="8.0" transform="rotate(-35.0 38.0 58.0)"/>
+  <ellipse fill="#1a1814" cx="26.0" cy="48.0" rx="9.0" ry="4.5" transform="rotate(50.0 26.0 48.0)"/>
+  <ellipse fill="#1a1814" cx="54.0" cy="46.0" rx="15.0" ry="11.0"/>
+  <circle fill="#1a1814" cx="68.0" cy="40.0" r="8.0"/>
+  <circle fill="#1a1814" cx="73.0" cy="34.0" r="3.4"/>
+  <path fill="none" stroke="#1a1814" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M60 54 C70 60 76 68 70 72"/>
+
+</svg>

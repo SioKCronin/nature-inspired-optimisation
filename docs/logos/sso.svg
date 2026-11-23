@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Social Spider">
+  <title>Social Spider</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <circle fill="#1a1814" cx="48.0" cy="48.0" r="4.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M48 22 V74 M22 48 H74 M30 30 L66 66 M66 30 L30 66"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M48 18 A30 30 0 1 0 48.1 18"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M44 48 L36 40 M52 48 L60 40 M44 52 L38 60 M52 52 L58 60"/>
+
+</svg>

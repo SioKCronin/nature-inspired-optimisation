@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Memetic Algorithm">
+  <title>Memetic Algorithm</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <circle fill="#1a1814" cx="48.0" cy="38.0" r="16.0"/>
+  <rect fill="#1a1814" x="43.0" y="52.0" width="10.0" height="6.0" rx="1.0"/>
+  <rect fill="#1a1814" x="40.0" y="58.0" width="16.0" height="4.5" rx="1.5"/>
+  <rect fill="#1a1814" x="42.0" y="64.5" width="12.0" height="3.5" rx="1.0"/>
+  <rect fill="#1a1814" x="43.5" y="70.0" width="9.0" height="3.5" rx="1.0"/>
+
+</svg>

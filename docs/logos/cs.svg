@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Cuckoo Search">
+  <title>Cuckoo Search</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="#1a1814" d="M22 64 C28 56 40 54 52 58 C62 54 74 58 78 66 C68 62 56 64 48 68 C38 64 28 66 22 64 Z"/>
+  <ellipse fill="#1a1814" cx="40.0" cy="62.0" rx="6.0" ry="4.5"/>
+  <path fill="#1a1814" d="M46.0 48.0 L68.1 37.0 L58.8 46.7 Z"/>
+  <path fill="#1a1814" d="M46.0 48.0 L64.7 60.8 L56.2 50.5 Z"/>
+
+</svg>

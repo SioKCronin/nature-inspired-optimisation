@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Flower Pollination">
+  <title>Flower Pollination</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="40.1" rx="7.0" ry="18.0" transform="rotate(-90.0 48.0 50.0)"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="40.1" rx="7.0" ry="18.0" transform="rotate(-18.0 48.0 50.0)"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="40.1" rx="7.0" ry="18.0" transform="rotate(54.0 48.0 50.0)"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="40.1" rx="7.0" ry="18.0" transform="rotate(126.0 48.0 50.0)"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="40.1" rx="7.0" ry="18.0" transform="rotate(198.0 48.0 50.0)"/>
+  <circle fill="#1a1814" cx="48.0" cy="50.0" r="6.0"/>
+
+</svg>

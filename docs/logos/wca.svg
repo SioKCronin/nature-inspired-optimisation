@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Water Cycle">
+  <title>Water Cycle</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <circle fill="#1a1814" cx="34.0" cy="30.0" r="10.0"/>
+  <circle fill="#1a1814" cx="48.0" cy="26.0" r="12.0"/>
+  <circle fill="#1a1814" cx="62.0" cy="30.0" r="9.0"/>
+  <path fill="#1a1814" d="M30 36 H66 C64 42 58 44 48 44 C38 44 32 42 30 36 Z"/>
+  <path fill="#1a1814" d="M40 50 C40 50 36 58 40 62 a4 4 0 0 0 8 0 C50 58 46 50 46 50 Z"/>
+  <path fill="#1a1814" d="M54 48 C54 48 50 58 54 64 a4.2 4.2 0 0 0 8.4 0 C66 58 62 48 62 48 Z"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="74.0" rx="22.0" ry="5.0"/>
+
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Plant Propagation">
+  <title>Plant Propagation</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" d="M30 76 V44"/>
+  <ellipse fill="#1a1814" cx="20.0" cy="56.0" rx="11.0" ry="5.0" transform="rotate(-50.0 20.0 56.0)"/>
+  <ellipse fill="#1a1814" cx="40.0" cy="52.0" rx="11.0" ry="5.0" transform="rotate(48.0 40.0 52.0)"/>
+  <circle fill="#1a1814" cx="30.0" cy="40.0" r="4.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" d="M30 68 C42 74 52 62 66 68"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" d="M66 68 V54"/>
+  <ellipse fill="#1a1814" cx="58.0" cy="58.0" rx="8.0" ry="3.6" transform="rotate(-48.0 58.0 58.0)"/>
+  <ellipse fill="#1a1814" cx="74.0" cy="56.0" rx="8.0" ry="3.6" transform="rotate(48.0 74.0 56.0)"/>
+
+</svg>

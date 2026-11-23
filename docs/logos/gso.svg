@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Glowworm Swarm">
+  <title>Glowworm Swarm</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="none" stroke="#1a1814" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M22 68 C28 54 34 60 42 48 C50 36 56 44 66 34 C72 28 74 26 76 22"/>
+  <circle fill="#1a1814" cx="78.0" cy="18.0" r="7.0"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Elephant Herding">
+  <title>Elephant Herding</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <ellipse fill="#1a1814" cx="58.0" cy="56.0" rx="20.0" ry="14.0"/>
+  <circle fill="#1a1814" cx="34.0" cy="50.0" r="12.0"/>
+  <ellipse fill="#1a1814" cx="44.0" cy="46.0" rx="10.0" ry="13.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M26 56 C16 66 18 78 30 76"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M24 58 C18 64 20 70 26 68"/>
+  <rect fill="#1a1814" x="42.0" y="66.0" width="6.0" height="12.0" rx="2.0"/>
+  <rect fill="#1a1814" x="52.0" y="68.0" width="6.0" height="12.0" rx="2.0"/>
+  <rect fill="#1a1814" x="62.0" y="68.0" width="6.0" height="12.0" rx="2.0"/>
+  <rect fill="#1a1814" x="70.0" y="64.0" width="6.0" height="12.0" rx="2.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M76 48 C84 44 84 36 78 38"/>
+
+</svg>

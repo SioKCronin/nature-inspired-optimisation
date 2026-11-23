@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Bat Algorithm">
+  <title>Bat Algorithm</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="#1a1814" d="M48 46 C45 34 38 28 32 30 C22 32 16 42 18 52 C24 46 32 46 38 50 L34 62 L42 52 L48 66 L54 52 L62 62 L58 50 C64 46 72 46 78 52 C80 42 74 32 64 30 C58 28 51 34 48 46 Z"/>
+  <polygon fill="#1a1814" points="40.0,32.0 36.0,18.0 46.0,30.0"/>
+  <polygon fill="#1a1814" points="56.0,32.0 60.0,18.0 50.0,30.0"/>
+
+</svg>

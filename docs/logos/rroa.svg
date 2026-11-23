@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Raven Roosting">
+  <title>Raven Roosting</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="none" stroke="#1a1814" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M16 68 H80"/>
+  <path fill="#1a1814" d="M34 66 C32 54 38 46 46 44 L58 28 L52 44 C64 42 74 50 72 60 C78 58 82 64 74 66 Z"/>
+  <polygon fill="#1a1814" points="30.0,58.0 16.0,50.0 18.0,64.0"/>
+
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Firefly Algorithm">
+  <title>Firefly Algorithm</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <ellipse fill="#1a1814" cx="44.0" cy="34.0" rx="15.0" ry="5.5" transform="rotate(-18.0 44.0 34.0)"/>
+  <ellipse fill="#1a1814" cx="58.0" cy="32.0" rx="12.0" ry="4.5" transform="rotate(16.0 58.0 32.0)"/>
+  <ellipse fill="#1a1814" cx="40.0" cy="50.0" rx="14.0" ry="8.0"/>
+  <circle fill="#1a1814" cx="64.0" cy="54.0" r="13.0"/>
+  <circle fill="#1a1814" cx="26.0" cy="48.0" r="6.0"/>
+  <path fill="none" stroke="#1a1814" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M22 44 C14 36 16 28 24 30"/>
+
+</svg>

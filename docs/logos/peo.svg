@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Philippine Eagle">
+  <title>Philippine Eagle</title>
+  <rect width="96" height="96" rx="22" fill="#f3efe6"/>
+  <path fill="#1a1814" d="M42 50 L10 38 L18 50 L8 54 L22 54 L16 66 L32 54 L42 58 Z"/>
+  <path fill="#1a1814" d="M54 50 L86 38 L78 50 L88 54 L74 54 L80 66 L64 54 L54 58 Z"/>
+  <ellipse fill="#1a1814" cx="48.0" cy="52.0" rx="8.0" ry="13.0"/>
+  <polygon fill="#1a1814" points="41.0,60.0 48.0,78.0 55.0,60.0"/>
+  <circle fill="#1a1814" cx="48.0" cy="32.0" r="8.0"/>
+  <polygon fill="#1a1814" points="40.0,28.0 44.0,14.0 49.0,26.0"/>
+  <polygon fill="#1a1814" points="47.0,24.0 52.0,12.0 56.0,26.0"/>
+  <polygon fill="#1a1814" points="54.0,32.0 68.0,36.0 54.0,40.0"/>
+
+</svg>
